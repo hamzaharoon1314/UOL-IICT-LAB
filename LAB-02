@@ -1,0 +1,36 @@
+Task-01
+
+marks=int(input("Your Total Marks: "))
+passingmarks=50
+if marks>100 or marks<0:
+    print("Invalid input.")
+else:    
+    if marks>passingmarks:
+        print("You are Passed.")
+    else:
+        print("You are Failed.")
+
+
+
+Task-02
+
+
+number=int(input("Enter Number: "))
+if number % 2 == 0:
+    print("Number is even.")
+else:
+    print("Number is Odd.")
+
+
+
+
+Task-03
+
+
+char=input("Enter Letter: ")
+if char == 'A' or char == 'E' or char == 'I' or char == 'O' or char == 'U':
+    print("It is vowel.")
+else:
+    print("It is a consonant.")
+
+
